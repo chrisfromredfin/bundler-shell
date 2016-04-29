@@ -1,0 +1,31 @@
+// ========================================
+// VENDOR IMPORTS
+// ========================================
+
+// Vendor Imports: Compass
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+
+// Vendor Imports: Other
+@import "susy";
+@import "breakpoint";
+
+// Formalize is old, so requires these variables to be set.
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie6: false;
+@import "formalize";
+
+
+// ========================================
+// CUSTOM IMPORTS
+// ========================================
+// Our own utility imports - these things wouldn't produce output.
+// Import utilities first, like mixins, extends, and vars
+// Variables is named _all_vars simply so it will be included first
+// and the variables can be used in subsequent partials. :)
+@import 'util/*';
+
+// Import the rest of the partials
+// @import "whatever/*";
+// ...

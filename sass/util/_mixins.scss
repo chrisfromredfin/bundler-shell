@@ -1,0 +1,10 @@
+// A mixin for font sizing in px with rem fallback. Defines some global vars.
+@mixin type-size($font-size, $line-size: 0) {
+  font-size: $font-size + px;
+  font-size: ($font-size / $base-font-size) * 1rem;
+
+  @if $line-size > 0 {
+    line-height: $line-size + px;
+    line-height: ($line-size / $base-font-size) * 1rem;
+  }
+}
