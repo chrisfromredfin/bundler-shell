@@ -24,8 +24,17 @@ $legacy-support-for-ie6: false;
 // Import utilities first, like mixins, extends, and vars
 // Variables is named _all_vars simply so it will be included first
 // and the variables can be used in subsequent partials. :)
-@import 'util/*';
+@import 'util/all_vars';
+@import 'util/mixins';
+@import 'util/extends';
 
 // Import the rest of the partials
-// @import "whatever/*";
-// ...
+//@import 'misc/*';
+//@import 'layout/*';
+//@import 'beans/*';
+//@import 'pages/*';
+//@import 'components/*';
+//@import 'paragraphs/*';
+//@import 'views/*';
+//@import 'content_types/*';
+//@import 'fields/*';

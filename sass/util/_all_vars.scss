@@ -2,9 +2,6 @@
 $susy: (
   columns: 12,
   gutters: 1.5,
-  math: fluid,
-  output: float,
-  gutter-position: inside,
 );
 
 @include border-box-sizing;
@@ -22,4 +19,5 @@ $helvetica-stack: Helvetica, Arial, sans-serif;
 // Breakpoints
 $breakpoint-phone: 481px;
 $breakpoint-tablet-portrait: 641px;
-$breakpoint-tablet: 980px;
+$breakpoint-tablet: 769px;
+$breakpoint-desktop: 1025px;
