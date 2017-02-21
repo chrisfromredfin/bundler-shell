@@ -1,0 +1,25 @@
+; Info file for [Website Name]
+name = Website Name
+description = Susy grid-based responsive theme using the breakpoint compass extension.
+core = 7.x
+stylesheets[all][] = css/style.css
+
+scripts[] = js/script.js
+
+regions[highlighted] = Highlighted
+regions[header] = Header
+regions[hero] = Hero
+regions[help] = Help
+regions[content] = Content
+regions[above_content] = Above Content
+regions[below_content] = Below Content
+regions[sidebar_first] = Sidebar first
+regions[footer] = Footer
+
+; Breakpoints
+; For Picture Module version 2.x
+breakpoints[site_max] = (min-width: 1281px)
+breakpoints[desktop] = (min-width: 1025px)
+breakpoints[tablet] = (min-width: 769px)
+breakpoints[tablet-portrait] = (min-width: 481px)
+breakpoints[phone] = (min-width: 0px)
